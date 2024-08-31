@@ -1,0 +1,31 @@
+.header-container {
+    text-align: center; /* จัดข้อความให้ตรงกลาง */
+    display: grid;
+    grid-template-columns: 2fr 5fr; /* กำหนดความกว้างของคอลัมน์ซ้ายและขวา */
+    height: 100vh; /* ขยายความสูงของ container ให้อยู่เต็มหน้าจอ */
+  }
+  .header-content {
+    background-color: #d8d6d8; /* สีพื้นหลังของแถบด้านซ้าย */
+    padding: 20px; /* ระยะห่างภายใน */
+  }
+  
+  .profile-image {
+    border-radius: 30%; /* ทำให้รูปภาพเป็นวงกลม */
+  }
+  .Leave-image{
+    border-radius: 0%; /* ทำให้รูปภาพเป็นวงกลม */
+  }
+  .left-sidebar {
+    background-color: #f5f4f4; /* สีพื้นหลังของแถบด้านซ้าย */
+    padding: 20px; /* ระยะห่างภายใน */
+    grid-column: 1; /* วางเนื้อหาให้อยู่ในคอลัมน์ซ้าย */
+  }
+  .right-sidebar {
+    background-color: #f5f4f4; /* สีพื้นหลังของแถบด้านซ้าย */
+    padding: 20px; /* ระยะห่างภายใน */
+    grid-column: 1.5; /* วางเนื้อหาให้อยู่ในคอลัมน์ขวา */
+    justify-self: grid; /* จัดแนวนอนให้เนื้อหาอยู่ตรงกลางของคอลัมน์ */
+  }
+  
+  
+  
